@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { getAllHistoryAPI, removeHistoryAPI } from '../Services/allApi';
+import { getAllHistoryAPI, removeHistoryAPI } from '../services/allApi';
 function Watch() {
   const [history, setHistory] = useState([]);
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Button, Modal, Form, FloatingLabel } from 'react-bootstrap'
-import { saveCategoryAPI, getCategoryAPI, removeCategoryAPI, getAVideoAPI, updateCategoryAPI } from '../Services/allApi';
+import { saveCategoryAPI, getCategoryAPI, removeCategoryAPI, getAVideoAPI, updateCategoryAPI } from '../services/allApi';
 import VideoCard from './VideoCard';
 function Category({removeCategoryVideoResponse}) {
   const [categories, setCategories] = useState([]);

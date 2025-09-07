@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import VideoCard from './VideoCard'
-import { getACategoryAPI, getAllVideosAPI, updateCategoryAPI } from '../Services/allApi';
+import { getACategoryAPI, getAllVideosAPI, updateCategoryAPI } from '../services/allApi';
 
 function View({uploadVideoResponse, setRemoveCategoryVideoResponse}) {
   const [allVideos, setAllVideos] = useState([]);
